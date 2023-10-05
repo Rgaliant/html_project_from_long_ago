@@ -1,0 +1,202 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 26px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* the hero image*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.Hello-text {
+  font-size: 200px;
+  color: #4CAF50;
+  font-family: 'Londrina Outline';
+  margin-bottom: -50px;
+  margin-top: 10px;
+}
+
+.hero-text-name {
+  color: #4CAF50;
+  font-family: cursive;
+}
+
+.small-hero-text {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-text {
+  font-family: Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: #4caf50;
+}
+
+.hero-text button:hover {
+  color: #4CAF50;
+  text-decoration: none;
+}
+/* the hero image */
+
+.mojo-link {
+  color: black;
+}
+
+.mojo-link:hover {
+  color: #4CAF50;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.masthead-intro {
+  text-align: center;
+  color: #333;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 30px;
+}
+
+.masthead-heading {
+  text-align: center;
+  padding: 10px;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 38px;
+  color: #4CAF50;
+  background-color: #333;
+}
+
+.introduction-section {
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.intro-header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 90px;
+  color: #4CAF50;
+  background-color: #333;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: rgb(143, 142, 142);
+}
+
+.skill-logos {
+  display: flex;
+  height: 300px;
+}
+
+.top-photos {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+hr {
+  display: block;
+  height: 5px;
+  border: 0;
+  border-top: 10px solid #4caf50;
+  margin: 1em 0;
+  padding: 0;
+}
+.mojobanner {
+  height: 200px;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 50px;
+  border: 5px solid #333;
+}
+
+.dplbanner {
+  height: 200px;
+  width: 250px;
+  margin-right: 50px;
+  border: 5px solid #333;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.examples-text {
+  display: flex;
+  background-color: #333;
+  font-family: 'Londrina Outline', cursive;
+  font-size: 90px;
+  color: #4CAF50;
+  justify-content: center;
+  
+}
+
+.examples {
+  height: 400px;
+  width: 400px;
+  border: 5px solid #333;
+  margin: 10px;
+}
+
+
